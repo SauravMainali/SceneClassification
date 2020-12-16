@@ -9,7 +9,7 @@ Both self-trained model and pre-trained model were experimented with in this pro
 
 
 
-#### Instructions for how to run the code :----
+#### Instructions on how to run the code :----
 
 data_prep.py -- This file allow us to load the data.
 
