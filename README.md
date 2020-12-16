@@ -1,4 +1,4 @@
-Scene Classification
+## Scene Classification
 
 This project is mainly about image classification. The goal here is to classify Scenes around the globe into one of six possible classes using Deep Neural Networks. The application of scene classification could range from organization of photos in Smartphones, assist in growth of country’s economy through Tourism Planning and so on.
 
@@ -9,13 +9,13 @@ Both self-trained model and pre-trained model were experimented with in this pro
 
 
 
-Instructions for how to run the code :----
+#### Instructions for how to run the code :----
 
 data_prep.py -- This file allow us to load the data.
 
 vgg16.py vgg19.py res.py inception.py inceptionRes.py -- These five files use pre-trained networks without data augmentation.
 
-3.aug_plots.py -- This file plots how selected picture is augmented.
+aug_plots.py -- This file plots how selected picture is augmented.
 
 vgg16_da.py vgg19_da.py ResNet152_da.py InceptionV3_da.py InceptionResV2_da.py -- These five files use pre-trained networks with data augmentation.
 
